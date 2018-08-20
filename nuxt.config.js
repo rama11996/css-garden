@@ -7,10 +7,15 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'CSS Garden' }
+      { hid: 'description', name: 'description', content: 'CSS Garden' },
+      { name:"author", content:"Dave Shea" },
+      { name:"description", content:"A demonstration of what can be accomplished visually through CSS-based design."},
+      { name:"robots", content:"all" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel:"stylesheet", media:"screen", href:"style.css?v:8may2013"},
+      { rel:"alternate", type:"application/rss+xml", title:"RSS", href:"http://www.csszengarden.com/zengarden.xml"}
     ]
   },
   /*
