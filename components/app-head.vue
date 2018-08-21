@@ -11,8 +11,11 @@
   </section>
 </template>
 <style lang="sass" scoped>
+  
  @media (min-width: 760px) 
   section
+    margin-left: 7rem
+    margin-right: 7rem
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_RPKz4zB6oPeoU8SVN35ev9GjkpN6vtX9fiVDmZS2OOO-Ru_maA)
     header
       h1
@@ -27,8 +30,9 @@
       color: #00FFE2 
       font-size: 10px  
   
- @media (max-width: 460px) 
+ @media (max-width: 530px) 
   section
+    
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_RPKz4zB6oPeoU8SVN35ev9GjkpN6vtX9fiVDmZS2OOO-Ru_maA)
     header
       h1
@@ -43,6 +47,7 @@
       font-size: 10px  
  @media (max-width: 760px) 
   section
+     
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_RPKz4zB6oPeoU8SVN35ev9GjkpN6vtX9fiVDmZS2OOO-Ru_maA)
     header     
       h1

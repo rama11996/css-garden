@@ -10,34 +10,39 @@
   </section>    
 </template>
 <style lang="sass" scoped>
-@media (min-width: 760px)
+@media (min-width: 750px)
   section
-    margin-left: 50px
+    color: white
+    margin-left: 7rem
+    margin-right: 7rem
+    display: flex
     img
       margin-top: 10px
-      height: 400px
-      width: 290px
+      height: 250px
+      width: 300px
     div
-      position: absolute
-      top: 6rem
-      left: 22rem 
-@media (max-width: 760px)
+      margin-top: 0rem
+      h3
+        color: Yellow 
+@media (max-width: 530px)
   section
-    margin-left: 50px
+    color: white
+    display: flex
+    flex-direction: column
     img
-      margin-top: 10px
-      height: 400px
-      width: 290px
+      height: 300px
+      width: 310px
     div
-      position: absolute
-      top: 6rem
-      left: 22rem
-@media (max-width: 460px) 
-  section  
-    margin-left: 50px
-    div  
-      position: absolute
-      top: 31rem
-      left: 3rem
-    
+      h3
+        color: Yellow   
+@media (max-width: 750px)  
+  section
+    color: white
+    display: flex  
+    img
+      height: 300px
+    div 
+      h3
+        color: Yellow 
+     
 </style>
