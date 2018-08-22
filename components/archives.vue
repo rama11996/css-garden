@@ -17,16 +17,55 @@
 			</div>
 </template>
 <style lang="sass" scoped>
-div
-  h3
-    color: yellow 
-  nav
-    ul
-      li  
-        a
-          text-decoration: none
-          color: white
-          display: inline-block 
-    
+@media (min-width: 750px)
+	div
+		width: 200px
+		margin-left: 7rem
+		margin-top: 20px
+		background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn_rsLJec-CEDgjWKIr3IhVIUShsggoM9gLYca0fNpe2p5NAHJrQ")
+		h3.archives
+			border: 3px ridge #34e625
+			width: 190px
+			color: white
+		nav
+			ul
+				li
+					list-style: none
+					a
+						text-decoration: none	
+@media (max-width: 530px)
+	div
+		width: 200px
+		margin-left: 7rem
+		margin-top: 20px
+		background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn_rsLJec-CEDgjWKIr3IhVIUShsggoM9gLYca0fNpe2p5NAHJrQ")
+		h3.archives
+			border: 3px ridge #34e625
+			width: 190px
+			color: white
+		nav
+			ul
+				li
+					list-style: none
+					a
+						text-decoration: none	
+@media (max-width: 750px)
+	div
+		width: 200px
+		margin-left: 7rem
+		margin-top: 20px
+		background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn_rsLJec-CEDgjWKIr3IhVIUShsggoM9gLYca0fNpe2p5NAHJrQ")
+		h3.archives
+			border: 3px ridge #34e625
+			width: 190px
+			color: white
+		nav
+			ul
+				li
+					list-style: none
+					a
+						text-decoration: none													
+						
 </style>
+
 
